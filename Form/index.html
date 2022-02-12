@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/formulário.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Nunito:ital,wght@1,300 & display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="" method="post" enctype="multipart/form-data">
+
+
+            <label>
+                <label for="Nome" class="space">
+                    <p class="identification">Nome</p>
+                    <input type="name" name="nome" id="nome" autofocus placeholder="Nome" required class="space">
+
+                </label>
+
+                <label for="email" class="space">
+                    <p class="identification">Email</p>
+                    <input type="email" name="email" id="email" autofocus placeholder="Email" required class="space">
+
+                </label>
+
+
+                <label for="number" class="space">
+                    <p class="identification">Idade</p>
+                    <input type="number" name="number" id="number" min="12" autofocus placeholder="15" required
+                        class="space">
+
+                </label>
+                <label for="date" class="space">
+                    <p class="identification">Data de Nascimento</p>
+                    <input type="date" name="date" id="date" class="space">
+
+                </label>
+                <label class="space">
+                    <p class="identification">Onde Você Possui Conta</p>
+                    <input type="checkbox" name="Instagram" class="space"> Instagram
+                    <input type="checkbox" name="Facebook" class="space"> Facebook
+                    <input type="checkbox" name="Youtube" class="space"> Youtube
+
+                </label>
+
+                <label for="sexo" class="space">
+                    <p class="identification">Sexo</p>
+                    <input type="radio" id="sexo" name="sexo" value="HTML" class="space">Masculino
+                    <input type="radio" id="sexo" name="sexo" value="HTML" class="space">Feminino
+
+                </label>
+
+
+                <label for="cor-olhos" class="space">
+                    <p class="identification">Cor dos Olhos</p>
+                    <input type="color" name="cor-olhos" id="color" required class="space">
+
+                </label>
+
+
+                <label class="space">
+                    <p class="identification">Biografia</p>
+                    <textarea name="bio" autofocus placeholder="Biografia" required class="space"></textarea>
+
+                </label>
+
+
+                <label for="file" class="space">
+                    <p class="identification">Foto do Perfil</p>
+                    <input type="file" name="file" id="file" accept="images/*" required class="space">
+
+                </label>
+
+                <label for="telefone" class="space">
+                    <p class="identification">Telefone</p>
+                    <input type="tel" name="Telefone" id="Telefone" autofocus placeholder="9999-9999" required
+                        class="space">
+
+                </label>
+
+                <label for="url" class="space">
+                    <p class="identification">Link do Perfil do Facebook</p>
+                    <input type="url" name="url" id="url" autofocus placeholder="Facebook" required class="space">
+
+                </label>
+
+                <label for="password" class="space">
+                    <p class="identification">Senha</p>
+                    <input type="password" name="password" id="password" min="6" max="8" autofocus placeholder="1234"
+                        required class="space">
+
+                </label>
+                
+
+                <button type="reset" name="reset" class="space">Limpar</button>
+                <button type="submit" name="submit" class="space">Enviar Dados</button>
+            </label>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
